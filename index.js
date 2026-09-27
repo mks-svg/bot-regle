@@ -12,7 +12,7 @@ const client = new Client({
 
 // --------- CONFIG ----------
 // mets tes ids ici sinon ça marchera pas hein
-const TOKEN = "TON_TOKEN";
+const TOKEN = process.env.TOKEN;
 const SALON_REGLEMENT = "1553802257865121953";
 const CATEGORIE = "1553801114405703871";
 const ROLE_MEMBRE = "1553820480694263830";
